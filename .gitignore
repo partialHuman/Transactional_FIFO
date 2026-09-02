@@ -1,0 +1,61 @@
+# ============================================================
+# Vivado Generated Files
+# ============================================================
+
+.Xil/
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.gen/
+.srcs/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg.bak
+
+# Vivado project files
+*.xpr
+*.xise
+
+# Runs / generated implementation data
+runs/
+synth_*
+impl_*
+
+# ============================================================
+# Simulation Generated Files
+# ============================================================
+
+*.vcd
+*.fst
+*.wlf
+
+# Keep manually generated/documented waveforms
+# waveforms/
+
+# ============================================================
+# Temporary / Backup Files
+# ============================================================
+
+*.bak
+*.tmp
+*~
+*.swp
+
+# ============================================================
+# Operating System
+# ============================================================
+
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Editor
+# ============================================================
+
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
