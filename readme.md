@@ -2,6 +2,7 @@
 
 > A parameterized synchronous FIFO with speculative writes, transactional **commit**, and **rollback** support.
 
+[![CI Verification](https://github.com/partialHuman/Transactional_FIFO/actions/workflows/simulation.yml/badge.svg)](https://github.com/partialHuman/Transactional_FIFO/actions/workflows/simulation.yml)
 ![Verilog](https://img.shields.io/badge/HDL-Verilog-blue)
 [![Tool](https://img.shields.io/badge/Tool-Vivado-blue)](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html)
 ![Simulation](https://img.shields.io/badge/Verification-282%2F282%20PASS-success)
