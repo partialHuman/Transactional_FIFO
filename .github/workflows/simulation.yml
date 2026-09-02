@@ -31,4 +31,17 @@ jobs:
 
       - name: Run verification
         run: |
-          vvp build/fifo_sim
+          set -o pipefail
+          vvp build/fifo_sim | tee build/verification.log
+
+      - name: Check verification result
+        run: |
+          grep -q "282 PASS / 0 FAIL / 282 TOTAL" build/verification.log
+          grep -q "ALL TESTS PASSED" build/verification.log
+
+      - name: Upload verification log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-log
+          path: build/verification.log
