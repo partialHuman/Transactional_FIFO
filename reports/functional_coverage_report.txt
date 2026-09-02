@@ -1,0 +1,48 @@
+=====================================================
+ TRANSACTIONAL FIFO FUNCTIONAL COVERAGE REPORT
+=====================================================
+
+Transaction States:
+  No Transaction                   : 1
+  Transaction Pending              : 1
+  Commit                           : 1
+  Rollback                         : 1
+
+Basic Operations:
+  Write                            : 1
+  Read                             : 1
+
+Simultaneous Operations:
+  Read + Write                     : 1
+  Write + Commit                   : 1
+  Write + Rollback                 : 1
+  Read + Commit                    : 1
+  Read + Rollback                  : 1
+  Commit + Rollback                : 1
+
+Complex Operations:
+  Read + Write + Commit            : 1
+  Read + Write + Rollback          : 1
+  Write + Commit + Rollback        : 1
+  Read + Write + Commit + Rollback : 1
+
+FIFO Boundary Conditions:
+  Empty                            : 1
+  Near Full                        : 1
+  Full                             : 1
+  Read at Full                     : 1
+  Write at Full                    : 1
+
+Reset Coverage:
+  Reset while Idle                 : 1
+  Reset during Transaction         : 1
+
+Special Cases:
+  Commit with no Transaction       : 1
+  Rollback with no Transaction     : 1
+  Pointer Wraparound               : 1
+
+-----------------------------------------------------
+COVERAGE: 26 / 26 BINS HIT
+FUNCTIONAL COVERAGE: 100.000000%
+=====================================================

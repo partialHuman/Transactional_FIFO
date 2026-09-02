@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_transactional_fifo_demo_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_transactional_fifo_demo" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="200000001fs"></ZoomEndTime>
+      <Cursor1Time time="78203000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_transactional_fifo_demo/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/commit" type="logic">
+      <obj_property name="ElementShortName">commit</obj_property>
+      <obj_property name="ObjectShortName">commit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/rollback" type="logic">
+      <obj_property name="ElementShortName">rollback</obj_property>
+      <obj_property name="ObjectShortName">rollback</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/ren" type="logic">
+      <obj_property name="ElementShortName">ren</obj_property>
+      <obj_property name="ObjectShortName">ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/txn_pending" type="logic">
+      <obj_property name="ElementShortName">txn_pending</obj_property>
+      <obj_property name="ObjectShortName">txn_pending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/committed_count" type="array">
+      <obj_property name="ElementShortName">committed_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">committed_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/speculative_count" type="array">
+      <obj_property name="ElementShortName">speculative_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">speculative_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_transactional_fifo_demo/total_count" type="array">
+      <obj_property name="ElementShortName">total_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">total_count[4:0]</obj_property>
+   </wvobject>
+</wave_config>
