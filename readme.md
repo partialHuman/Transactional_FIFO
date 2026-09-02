@@ -3,6 +3,7 @@
 > A parameterized synchronous FIFO with speculative writes, transactional **commit**, and **rollback** support.
 
 ![Verilog](https://img.shields.io/badge/HDL-Verilog-blue)
+[![Tool](https://img.shields.io/badge/Tool-Vivado-blue)](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html)
 ![Simulation](https://img.shields.io/badge/Verification-282%2F282%20PASS-success)
 ![Coverage](https://img.shields.io/badge/Functional%20Coverage-100%25-success)
 ![Parameterization](https://img.shields.io/badge/Parameterized-Yes-orange)
@@ -62,6 +63,16 @@ The design uses a shared memory array and a three-pointer architecture to implem
 * Functional coverage
 * Parameterization testing
 * FPGA synthesis and implementation support
+
+## Configuration
+| Parameter     |                Value |
+| ------------- | -------------------: |
+| Data Width    |              32 bits |
+| FIFO Depth    |                   16 |
+| Address Width |               4 bits |
+| Architecture  |          Synchronous |
+| Memory        | Single shared memory |
+
 
 ---
 
